@@ -8,6 +8,7 @@ This problem is particularly challenging from the perspective of learning, credi
 Machine learning models are employed to analyse all the authorized transactions and report any suspicious activities. These reports are then investigated by professional who contact cardholders to confirm if the transaction performed was genuine or not. So, in hindsight, there is a need to train and update these models regularly to improve fraud-detection performance overtime.
 
 Using machine learning to detect fraud is part of the wider effort of anomaly detection, which aims to identify rare events which differ significantly from most of the data. There are two main categories within anomaly detection:
+
 o	Unsupervised anomaly detection
 o	Supervised anomaly detection
 
