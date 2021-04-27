@@ -9,11 +9,13 @@ Machine learning models are employed to analyse all the authorized transactions 
 
 Using machine learning to detect fraud is part of the wider effort of anomaly detection, which aims to identify rare events which differ significantly from most of the data. There are two main categories within anomaly detection:
 
-o	Unsupervised anomaly detection
-o	Supervised anomaly detection
+- Unsupervised anomaly detection
+- Supervised anomaly detection
 
 Unsupervised techniques aim to detect anomalies in unlabelled datasets by grouping events according to their features. Clustering is a commonly used technique, and, more recently, autoencoders have also proven useful for feature extraction. The assumption here is that in each dataset where most events are non-fraudulent, the model will learn to reconstruct them better than anomalous ones and the reconstruction error will be higher for the outlier events.
 
 Supervised techniques require the dataset to contain a label indicating whether an event is fraudulent or not. However, labelled datasets are limited, with only a few high-quality public datasets available. 
 
 The methodology of this project is to use the latest machine learning algorithms to detect any anomalous activities by using a very popular dataset from Kaggle. 
+
+Kaggle dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud
